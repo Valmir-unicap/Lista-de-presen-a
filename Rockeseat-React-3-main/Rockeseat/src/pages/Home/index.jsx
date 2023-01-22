@@ -57,7 +57,7 @@ setUser({
       </button>
 
       {
-      students.map(student) => (
+      students.map(student)) => (
         <Card 
         key={student.time}
         name={student.name} 
