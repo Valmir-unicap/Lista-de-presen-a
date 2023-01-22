@@ -50,14 +50,14 @@ setUser({
       <input
         type="text"
         placeholder="Digite o nome..."
-        onChange={e => setStudentName(e.target.value)}
+        onChange={(e) => setStudentName(e.target.value)}
       />
       <button type="button" onClick={handleAddStudent}>
         Adicionar
       </button>
 
       {
-      students.map((student) => (
+      students.map((student => (
         <Card 
         key={student.time}
         name={student.name} 
